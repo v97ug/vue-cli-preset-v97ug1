@@ -1,23 +1,23 @@
 {
-      "useConfigFiles": false,
-      "plugins": {
-        "@vue/cli-plugin-babel": {},
-        "@vue/cli-plugin-typescript": {
-          "classComponent": true,
-          "useTsWithBabel": true
-        },
-        "@vue/cli-plugin-pwa": {},
-        "@vue/cli-plugin-eslint": {
-          "config": "standard",
-          "lintOn": [
-            "save"
-          ]
-        },
-        "@vue/cli-plugin-unit-mocha": {},
-        "@vue/cli-plugin-e2e-nightwatch": {}
+    "useConfigFiles": false,
+    "plugins": {
+      "@vue/cli-plugin-babel": {},
+      "@vue/cli-plugin-typescript": {
+        "classComponent": true,
+        "useTsWithBabel": true
       },
-      "router": true,
-      "routerHistoryMode": false,
-      "vuex": true
-    }
+      "@vue/cli-plugin-pwa": {},
+      "@vue/cli-plugin-eslint": {
+        "config": "standard",
+        "lintOn": [
+          "save"
+        ]
+      },
+      "@vue/cli-plugin-unit-mocha": {},
+      "@vue/cli-plugin-e2e-nightwatch": {}
+    },
+    "router": true,
+    "routerHistoryMode": false,
+    "vuex": true
   }
+}
